@@ -1,0 +1,39 @@
+/*selector universal*/
+* {
+    border: 1px solid blue;
+    background-color: rgb(173, 155, 177);
+    color: black;
+}
+/*selector etiqueta*/
+header {
+    background-color: rgb(178, 154, 194);
+    color: beige;
+}
+article {
+    background-color: purple;
+    font-size: 16px;
+    color: black;
+}
+/*selector decendente*/
+article header {
+    background-color: red;
+    color: black;
+}
+/*selector de clase*/
+.header {
+    background-color: rgb(0, 0, 0);
+}
+.title-underline {
+    background-color: yellow;
+    color: blue;
+}
+.header .header-wrapper * {
+    background-color: green;
+    color: brown;
+    border: 1px solid black;
+}
+/*selector id*/
+#aboutme {
+    background-color: rgb(0, 255, 255);
+    color: black;
+}

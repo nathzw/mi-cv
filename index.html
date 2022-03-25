@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>mi casa</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--esta es la seccion del header-->
+        <header class="header">
+              <div class="header-wrapper">
+                  <div class="header-logo">
+                      <img src="./img/favicon.ico" alt="portafolio" height="100"/>
+
+                  </div>
+                  <nav class="header-menu">
+                     <ul class="header-menu">
+                          <li class="header-menu-item">
+                              <a href="#" class="header-menu-link">sobre mi</a>
+                          </li>
+                          <li class="header-menu-item">
+                            <a href="#" class="header-menu-link">portafolio</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#" class="header-menu-link">habilidades</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#" class="header-menu-link">contacto</a>
+                        </li>
+                     </ul>
+                  </nav>
+              </div>
+        </header>
+        <!--esta es la seccion del header-->
+        <!--aca se agrega el fondo con css-->
+        <section class="cover">
+            <div class="cover-wrapper">
+                <div class="cover-photo-container">
+                    <img src="data:image/jpeg;base64,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"
+                    alt="nath" height="200" class="cover-photo"/>
+                <div class="cover-text">
+                     <h1 class="cover-title">nathaniel</h1>
+                     <h2 class="cover-sub-title">diseñador web</h2>
+                </div>
+                </div>
+
+            </div>
+        </section>
+        <!--esta es la informacion sobre cata-->
+        <section id="aboutme" class="aboutme">
+            <header>
+                <h2 class="title-underline">
+                <span>sobre mi</span>
+                </h2>
+            </header>
+            <div class="cover-description">
+                <p>Neil Alden Armstrong, más conocido como Neil Armstrong, fue un astronauta estadounidense y el primer ser humano en pisar la Luna. También fue ingeniero aeroespacial, piloto de guerra, piloto de pruebas y profesor universitario</p>
+                <p>Era miembro de la Real Sociedad de Londres, de la Academia Pontificia de las Ciencias y de la Academia Nacional de Ciencias de Estados Unidos. Fue titular de la Cátedra Lucasiana de Matemáticas (Lucasian Chair of Mathematics) de la Universidad de Cambridge desde 1979 hasta su jubilación en 2009</p>
+                <div class="text-center">
+                    <a href="mailto:hola@gol" class="btn-blue">contactame</a>
+                </div>
+            </div>
+        </section>
+        <!--esta es la seccion de habilidades-->
+        <section class="skills">
+            <header>
+                <h2 class="title-underline">
+                <span>habilidades</span>
+                </h2>
+            </header>
+            <ul class="skill-wrapper">
+                <li class="skill-item">
+                    <div class="skill-text">
+                     <span class="skill-name">
+                         HTML
+                     </span>
+                     <span class="skill-score">
+                         90%
+                     </span>
+                    </div> 
+                    <div class="skill-bar">
+                         <div class="skills-inside-bar">                             
+                         </div>
+                    </div>                   
+                </li>
+                <li class="skill-item">
+                    <div class="skill-text">
+                     <span class="skill-name">
+                         CSS
+                     </span>
+                     <span class="skill-score">
+                         85%
+                     </span>
+                    </div> 
+                    <div class="skill-bar">
+                         <div class="skills-inside-bar">                             
+                         </div>
+                    </div>                   
+                </li>
+                <li class="skill-item">
+                    <div class="skill-text">
+                     <span class="skill-name">
+                         JS
+                     </span>
+                     <span class="skill-score">
+                         86%
+                     </span>
+                    </div> 
+                    <div class="skill-bar">
+                         <div class="skills-inside-bar">                             
+                         </div>
+                    </div>                   
+                </li>
+            </ul>            
+        </section>
+        <!--esta seccion es para trabajos-->
+        <section class="works">
+            <header>
+            <h1 class="title-underline">
+                <span>portafolio</span>
+            </h1>
+            </header>
+            <div class="works-wrapper">
+                <article class="works-item">
+                    <div class="works-item-img-container">
+                        <img src="img/descarga.jpg" alt="desarrollo web" class="works-item-img"/>
+                    </div>
+                    <div class="works-item-description">
+                        <header>
+                            <h2 class="works-item-title">desarrollo</h2>
+                        </header>
+                        <p class="works-item-client">para <a href="https://www.roblox.com/home" target="_blank"> nuestro cliente</a></p>
+                        <div class="text-center">
+                            <a href="https://www.roblox.com/home" class="btn-blue">visitar web</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="works-item">
+                    <div class="works-item-img-container">
+                        <img src="img/descarga.jpg" alt="desarrollo web" class="works-item-img"/>
+                    </div>
+                    <div class="works-item-description">
+                        <header>
+                            <h2 class="works-item-title">contactame</h2>
+                        </header>
+                        <p class="works-item-client">para <a href="http://images7.memedroid.com/images/UPLOADED688/5f8ef7ca649e3.jpeg" target="_blank"> nuestro cliente</a></p>
+                        <div class="text-center">
+                            <a href="http://images7.memedroid.com/images/UPLOADED688/5f8ef7ca649e3.jpeg" class="btn-blue">visitar web</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="works-item">
+                    <div class="works-item-img-container">
+                        <img src="img/descarga.jpg" alt="desarrollo web" class="works-item-img"/>
+                    </div>
+                    <div class="works-item-description">
+                        <header>
+                            <h2 class="works-item-title">mis trabajos</h2>
+                        </header>
+                        <p class="works-item-client">para <a href="https://preview.redd.it/b8zr1pu46d881.jpg?auto=webp&s=c8dd409c00e2266088a115aa57a68877d3355207" target="_blank"> nuestro cliente</a></p>
+                        <div class="text-center">
+                            <a href="https://preview.redd.it/b8zr1pu46d881.jpg?auto=webp&s=c8dd409c00e2266088a115aa57a68877d3355207" class="btn-blue">visitar web</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!--esta seccion es la de contacto-->
+        <section id="conatct" class="contact">
+            <header>
+                <h2  class="title-underline">
+                    <span>contactame</span>
+                </h2>
+            </header>
+            <form action="/message.php" class="contact-form">
+            <div class="contact-row">
+                <div class="contact-column left">
+                    <div>
+                        <label for="useremail">correo</label>
+                    </div>
+                    <div>
+                        <input id="useremail" name="#" type="email" class="contact-input-tetx" required/>
+                    <div class="contact-column right">
+                        <label for="username">nombre</label>
+                    </div>
+                    <div>
+                        <input id="username" name="#" type="text" class="contact-input-tetx" required/>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="contact-row">
+                <div class="contact-column">
+                    <div>
+                        <label for="usermessage">mensaje</label>
+                    </div>
+                 <textarea id="usermessage" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="text-center">
+                <input class="btn-blue" type="submit" value="Enviar"/>
+            </div>
+        </form>
+        </section>
+        <!--lista de seccion del footer-->
+        <footer class="footer">
+            <div class="footer-wrapper">
+              <p class="footer-text">
+                  esta pagina esta echa por mi❤️ codehouit
+              </p>
+            </div>
+        </footer>
+    </body>
+</html>
